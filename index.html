@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta
+			charset="utf-8">
+		<meta
+			name="viewport" content="width=device-width, initial-scale=1">
+		<title>Norbert Takács</title>
+		<style type="text/css">
+			body { 
+				margin: 40px auto;
+				max-width: 650px;
+				line-height: 1.5;
+				font-size: 18px;
+				color: #444;
+				padding: 0 10px;
+			}
+			h1, h2, h3 {
+				line-height: 1.2;
+			}
+			.smallfont {
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+			.bigfont {
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome, I'm Norbert.</h1>
+			<aside><h3>And this is a nice place to show you things I worked on recently.</h3></aside>
+		</header>
+		
+		<hr>
+		<h2>TorrentSwitch</h2>
+		<p><em>A program that links multiple torrent clients into a simple manager. Written in C#</em></p>
+			<center><img width="650" src=TorrentSwitch.png></center>
+		<ul>
+			<li>Allows users to add <b>multiple torrent managers</b> which are running on <b>different systems/devices.</b></li>
+			<li>Supports both <b>Magnet URI</b> and <b>Torrent files</b>.</li>
+			<li>Windows file and URI association.</li>
+			<li>Drag and Drop support</li>
+			<li>Capable of <b>inner process communication</b> used to share torrents between instances.</li>
+			<li>4 Torrent clients supported  <b>running on multiple platforms.</b></li>
+			<li>Torrent name and size extraction.</li>
+		</ul>
+		<ul>
+			<li><b>Type</b>: Tool</li>
+			<li><b>Platform</b>: Windows</li>
+			<li><b>Info</b>: <a href="https://github.com/BoKKeR/TorrentSwitch/blob/master/README.md">readme</a></li>
+			<li><b>Source code</b>: <a href="https://github.com/BoKKeR/TorrentSwitch">GPL 3.0</a></li>
+		</ul>
+		
+		<hr>
+		<h2>CryptoTicker.Hardware</h2>
+		<p><em>CryptoTicker.Hardware is an information display board PCB that supports <b>over 1500</b> coin pairs. The board consists of 4 individual 1.3" OLED displays</em></p>
+		<center><img width="650" src=CryptoTickerPCB.jpg></center>
+		<ul>
+			
+			<li>Open Source Hardware, PCB and schematics.</li>
+			<li>Built around the <b>ESP32</b> microcontroller.</li>
+			<li>The design comes with <b>four 1.3" OLED displays</b>.</li>
+			<li><b>I2C bus</b> communication using the TCA9548A IC to switch between displays</li>
+			<li>Capable of <b>four additional displays </b>with no additional hardware and <b>up to 64 with extra multiplexers</b></li>
+			<li>4 programmable buttons.</li>
+			<li>2 Programmable front facing led lights.</li>
+			<li>Expandable with an accelerometer.</li>
+			<li>USB-Serial communication done through the <b>CH340G IC</b></li>
+			<li><b>5-12V</b> power friendly</li>
+			<li>PCB art :)</li>
+		</ul>
+		<ul>
+			<li><b>Type</b>: Stock Information PCB</li>
+			<li><b>Platform</b>: Eagle CAD</li>
+			<li><b>Info</b>: <a href="https://github.com/BoKKeR/CryptoTicker.Hardware/blob/master/README.md">readme</a></li>
+			<li><b>Source code</b>: <a href="https://github.com/BoKKeR/CryptoTicker.Hardware">GPL 3.0</a></li>
+		</ul>
+		
+		<hr>
+		<h2>CryptoTicker.Software</h2>
+		<p><em>CryptoTicker.Software is the script/firmware that drives the display board PCB. It supports <b>over 1500</b> coin pairs. It drives the 4 individual 1.3" OLED displays and is easily expandable to support more.</em></p>
+			<center><img width="650" src=breadboard.jpg></center>
+		<ul>	
+			<li>Main core used for updating the displays.</li>
+			<li>Localhost config server running on the second core.</li>
+			<li>Built for the <b>ESP32</b> microcontroller.</li>
+			<li>Local database.</li>
+			<li><b>2 programmable</b> front facing led lights.</li>
+			<li><b>Over 1500</b> coin pairs supported</li>
+			<li>Fast multiplexer switching.</li>
+			<li><b>4 programmable</b> buttons.</li>
+			<li>External logging.</li>
+			<li>Lightweight and expandable.</li>
+		</ul>
+		<ul>
+			<li><b>Type</b>: Embedded board software / MicroPython</li>
+			<li><b>Platform</b>: ESP32 microcontroller</li>
+			<li><b>Info</b>: <a href="https://github.com/BoKKeR/CryptoTicker.Software/blob/master/README.md">readme</a></li>
+			<li><b>Source code</b>: <a href="https://github.com/BoKKeR/CryptoTicker.Software/">GPL 3.0</a></li>
+		</ul>
+		<hr>
+		<h2>Simple Start/Stop button for octoprint</h2>
+		<p><em>Easy STOP/START button solution for stopping and starting 3D printing jobs using octoprint, running on raspberry pi from the printer’s location. </em></p>
+			<center><img width="200" src=octoprint.png></center>
+		<ul>	
+			<li>Easy setup</li>
+			<li>Bypasses the plugin API</li>
+		</ul>
+		<ul>
+			<li><b>Type</b>: Python script</li>
+			<li><b>Platform</b>: Raspberry Pi</li>
+			<li><b>Info</b>: <a href="https://github.com/BoKKeR/STOP-START-button-for-OctoPi-OctoPrint/blob/master/README.md">readme</a></li>
+			<li><b>Source code</b>: <a href="https://github.com/BoKKeR/STOP-START-button-for-OctoPi-OctoPrint/">GPL 3.0</a></li>
+		</ul>
+	</body>
+</html>
